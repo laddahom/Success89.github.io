@@ -1,0 +1,382 @@
+/* @import url('https://fonts.googleapis.com/css?family=Kanit'); */
+@import url("https://fonts.googleapis.com/css2?family=Kanit");
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.fa-solid,
+.fas,
+.fa {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+}
+
+input:focus-visible {
+  border: none;
+  box-shadow: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  /* padding-top: 10px; */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    margin-top: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    background-color: #fefefe;
+    background-image: url('../../../iDepot/BgIdpot3.jpeg');
+    /* margin: auto; */
+    padding: 0;
+    border: 1px solid #888;
+    width: 100% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    /* height: 80vh; */
+    height: auto;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.modal-header {
+  padding: 5px;
+  background-color: #72a18f;
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+.modal-header h2 {
+  color: white !important;
+  margin-top: unset !important;
+  margin-bottom: unset !important;
+  padding: unset !important;
+}
+.modal-body {
+  padding: 5px;
+  /* height: 70vh; */
+  height: auto;
+  overflow: auto;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #72a18f;
+  color: white;
+}
+
+.my-actions {
+  margin: 0 2em;
+}
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+
+.right-gap {
+  margin-right: auto;
+}
+
+/* Style Gate In  */
+
+  .page-Style {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .page-sub-Style {
+    display: flex;    
+  }
+
+  .page-row-Style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .page-end-Style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .page-sb-Style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+  .ddl-Style {
+    overflow: hidden;
+    background: #29613e;
+    border-radius: 17px;
+    /* border: none; */
+    border: 1px solid black;
+  }
+
+  .ddl-Style select {
+    background-color: Window;
+    width: 100%;
+    padding: 5px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    border-color: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    color: black;
+    text-align: center;
+  }
+
+  .ddl-Style option {
+    color: #000000;
+  }
+
+  .btn-Style {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .btn-sub-Style {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-sub-end-Style {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .btn-border-Style {
+    display: flex;    
+  }
+
+
+  .btn-border-Style input[type="submit" i] {
+    border-radius: 17px;
+    text-align: center;
+    padding: 5px 12px;
+    border: none;
+  }
+
+  .btn-Style i {
+    background-color: #ffc107;
+    padding: 17px 70px;
+    color: white;
+    border-radius: 15px;
+    font-size: 2rem;
+  }
+
+  .txt-up-Style {
+    text-transform: uppercase;    
+  }
+
+  .txt-al-Style {
+    text-align: center;
+  }
+
+.content-Style {
+    background-color: ghostwhite;
+    margin: 15px;
+    padding: 10px 10px 1px 10px;
+    border-radius: 17px;
+}
+
+  .lb-Style {
+    font-size: 1rem;
+  }
+
+  .txt-ddl-Style select,.txt-ddl-Style {
+    font-size: 1rem;
+    height: 100%;
+  }
+
+.tb-area-Style {
+    border: 1px solid gray;
+    border-radius: 17px;
+    font-size: 1rem;
+}
+
+  .lb-Style-border {
+    font-size: 1.3rem;
+    /*background-color: white;*/
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .tb-Style input[type="text"] {
+    width: auto;
+    border: 1px solid;
+    border-radius: 17px;
+  }
+
+  .tb-Style input[type="number" i] {
+    width: auto;
+    border: 1px solid;
+    border-radius: 17px;
+  }
+
+/* Style Gate In  */
+
+.chk-Style *,
+.chk-Style *:after,
+.chk-Style *:before {
+  box-sizing: border-box;
+}
+
+.chk-Style input {
+  position: absolute;
+  opacity: 0;
+}
+
+.chk-Style input:checked + label svg path {
+  stroke-dashoffset: 0;
+}
+
+.chk-Style input:focus + label {
+  transform: scale(1.03);
+}
+
+.chk-Style input + label {
+  display: block;
+  border: 2px solid #333;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chk-Style input + label:active {
+  transform: scale(1.05);
+  border-radius: 12px;
+}
+
+.chk-Style input + label svg {
+  pointer-events: none;
+  padding: 5%;
+}
+
+.chk-Style input + label svg path {
+  fill: none;
+  stroke: #333;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 101;
+  transition: all 250ms cubic-bezier(1, 0, 0.37, 0.91);
+}
+
+.button {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 65px;
+  height: 40px;
+  position: relative;
+}
+
+.button label,
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.button input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type="radio"]:checked + label {
+  background: #1dc5cb;
+  border-radius: 17px;
+  border: 2px solid white;
+  color: white;
+}
+
+.button label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.8em;
+  background-color: white;
+  border-radius: 17px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 3px;
+  left: calc(100vw - 45px);
+  color: white;
+  float: right;
+  /* font-size: 40px; */
+  font-weight: bold !important;
+  font-weight: 900;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

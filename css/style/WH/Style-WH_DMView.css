@@ -1,0 +1,893 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit");
+
+* {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fa-solid,
+.fas,
+.fa {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+
+input:focus-visible {
+    border: none;
+    box-shadow: none;
+}
+
+select:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-Main {
+    width: 100%;
+    height: 60px;
+}
+
+#txtSeal {
+    border-radius: 17px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+    #txtSeal::placeholder {
+        text-align: center;
+    }
+
+#content_InspectionQA {
+    padding: 10px;
+    display: flex;
+    margin: 15px;
+    background-color: #FFC107;
+    width: 60%;
+    border-radius: 17px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+input#ChkInspection {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#ChkInspection, #content_InspectionQA label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#txtSeal:focus {
+    outline: none;
+}
+
+body {
+    font-size: 16px;
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    margin: unset;
+    background-color: rgb(151, 195, 211);
+    /* background-image: url(Images/krcbgg.JPG); */
+}
+
+.Maindiv {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text" i] {
+    padding-left: 10px;
+}
+
+
+/* Header content */
+
+#header_content {
+    background-color: cadetblue;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #header_content span {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        background-color: white;
+        color: cadetblue;
+        padding: 0 10px;
+        border-radius: 17px;
+    }
+
+#btnClear {
+    width: 100px;
+    height: 40px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 17px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+#Btnback {
+    width: 100px;
+    height: 40px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 17px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+#BtnSave {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 17px;
+    font-size: 2.5rem;
+    background-color: rgb(13, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    background-color: #72a18f;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+    .header p {
+        margin-top: unset;
+        margin-bottom: unset;
+        background-color: white;
+        padding: 0px 20px;
+        border-radius: 17px;
+        font-size: 1.8rem;
+        color: #72a18f;
+    }
+
+.header_cable {
+    display: flex;
+    background-color: #72a18f;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .header_cable span {
+        margin-top: unset;
+        margin-bottom: unset;
+        background-color: white;
+        padding: 0px 20px;
+        border-radius: 17px;
+        font-size: 1.8rem;
+        color: #72a18f;
+        margin-left: 20px;
+    }
+
+.btn-Back {
+    display: flex;
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    padding: 16px 2.5%;
+    z-index: 2;
+}
+
+    .btn-Back input {
+        text-decoration: none;
+        padding: 5px 10px;
+        color: #72a18f;
+        font-weight: bold;
+        background: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+
+/* Header content */
+
+/* body content */
+
+#content_containerno_detail {
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+#txtPContainer::placeholder {
+    font-size: 2rem;
+}
+
+
+.btn-search i {
+    font-size: 3rem;
+    background-color: #FFC107;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.btn-Camera i {
+    font-size: 5rem;
+    background-color: #FFC107;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.txt-Style {
+    font-size: 2.5rem;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.main_DetailQA {
+    margin-top: 10px;
+}
+
+.txt-ddl-Style select, .txt-ddl-Style {
+    font-size: 1.5rem;
+    /* height: 100%; */
+    height: auto;
+}
+
+.ddl-Style {
+    overflow: hidden;
+    /* background: #29613e; */
+    border-radius: 17px;
+    border: none;
+    /* border: 1px solid black; */
+}
+
+    .ddl-Style select {
+        background-color: Window;
+        width: 100%;
+        padding: 5px;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        border-color: transparent;
+        -webkit-appearance: none;
+        appearance: none;
+        color: black;
+        text-align: center;
+    }
+
+    .ddl-Style option {
+        color: #000000;
+    }
+
+.main_contentQA {
+    border: 2px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 17px;
+    margin: 15px;
+}
+
+#lb_licenseNo {
+    background-color: white;
+    padding: 0 15px;
+    border-radius: 17px;
+    font-size: 1.5rem;
+}
+
+#main_DetailQA {
+    background-color: #eaefe4;
+}
+
+#main_DetailQC {
+    background-color: #cccccc;
+}
+
+#txtQADescription {
+    width: 100%;
+    font-size: 2.1rem;
+    border-radius: 17px;
+}
+
+/* body content */
+
+.TextFont {
+    border: none;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 17px;
+    font-size: 1.5rem;
+    width: 100%;
+    /* background-color: transparent; */
+    background-color: cadetblue;
+    color: white;
+}
+
+    .TextFont:focus {
+        outline: none !important;
+        border: 1px solid black !important;
+    }
+
+#TxtRemark:focus {
+    outline: none !important;
+    border: 1px solid black !important;
+}
+
+.Size1 {
+    width: 135px;
+}
+
+.Size2 {
+    width: 110px;
+}
+
+input[id$="FixGrade"] {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+input[id$="FixShipper"] {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.Lable {
+    text-align: center;
+    font: bold;
+}
+
+.lableMode {
+    text-align: left;
+    margin-left: 3px;
+    /*position:absolute;*/
+}
+
+div[id$="frame"] {
+    width: 150px;
+    height: 26px;
+    border: solid thin rgba(0, 0, 0, 0.70);
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    padding: 3px 1px 1px 2px;
+}
+
+.lableLeft {
+    left: 0px;
+    margin-left: 0px;
+}
+
+.auto-style1 {
+    width: 100px;
+}
+
+#cap1 {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px 20px;
+}
+
+#divcap1 {
+    background-image: url(images/Camera.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#waitlay {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    color: navy
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding: 10px 20px;
+    width: 100%;
+    /* display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  padding: 20px 20px;
+  background-color: darkcyan;
+  border-radius: 17px;
+  margin: 0 10px;
+  position: absolute;
+  top: 25vh; */
+}
+
+.LockOn {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 9999;
+}
+
+.LoadScreen {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    position: absolute;
+    top: 25vh;
+}
+
+#Main_content {
+    padding: 15px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 17px;
+    flex-direction: column;
+    margin: 20px 15px 0px 15px;
+}
+
+#lbl_Con {
+    font-weight: bold !important;
+}
+
+.txtArea-Style {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 17px;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+#txtRegisNo, #txtBatchNo, #TxtDescription, #txtQty, #txtDocNo {
+    border-radius: 17px;
+    font-size: 1.5rem;
+    width: 100%;    
+    color: black;    
+}
+
+#txtRegisNo {
+    text-transform: uppercase;
+}
+
+#lb_RegisNo {
+    font-size: 1.5rem;
+}
+
+#Circle_camera,#ic_camera,#content_BtnDeletePic {
+    display: none;
+}
+
+#content_BtnCameraShoot {
+    justify-content: space-between;
+}
+
+#content_AddOrRemoveCamera {
+    margin-left: 10px;
+}
+
+#header_content label {
+    margin-top: unset;
+    margin-bottom: unset;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 17px;
+    font-size: 1.3rem;
+    color: #72a18f;
+    margin-left: 20px;
+}
+
+
+#txtRegisNo::placeholder,#txtDocNo::placeholder, #txtBatchNo::placeholder {
+    text-align: center;
+}
+
+#TxtSize, #TxtOperator {
+    background-color: transparent;
+}
+
+#main_ContentCamera {
+    background-color: aliceblue;
+    margin: 20px auto;
+    padding: 30px 15%;
+    border-radius: 17px;
+}
+
+#btnSearchBatch {
+    width: 100px;
+    padding: 5px 20px;
+    border-radius: 17px;
+    font-size: 1.2rem;
+    background-color: darkorange;
+    color: white;
+}
+
+
+.content_rangeImg {
+    display: flex;
+    position: absolute;
+    color: white;
+    z-index: 999;
+    right: 0;
+    background-color: rgb(0,0,0,0.4);
+    padding: 0 5px;
+}
+
+.content_tagImg {
+    display: flex;
+    position: absolute;
+    color: white;
+    z-index: 999;
+    background-color: rgb(0,0,0,0.4);
+}
+
+#tag_Img {
+    padding: 0 10px;
+}
+
+#num_Img {
+    margin-right: 5px;
+}
+#RdoInbound, #RdoOutbound,#RdoDamage, #RdoInspection,#RdoPrephoto,#Rdopostphoto {    
+    width: 25px;
+    height: 25px;    
+    margin-right: 5px;    
+}
+
+#content_SelectBound input[type="radio" i], .content_rdoDetail input[type="radio" i]{
+    pointer-events:none;
+}
+
+.rdo_bound label, .rdo_bound label {
+    font-size: 1.3rem;
+    pointer-events:none;
+}
+
+.button label {
+    pointer-events:none;
+}
+
+.rdo_bound {
+    background-color: #72a18f;
+    padding: 0 15px;
+    border-radius: 17px;
+}
+
+.rdo_bound span{
+    display: flex;
+    align-items: center;
+}
+
+
+.gridview-class {
+    border-collapse: collapse;
+    border: 1px solid #000 !important;
+}
+
+.headerGV {    
+    /* background-color: #000000 !important;     */
+    border: 1px solid #000 !important;
+}
+
+#TxtDescription,#txtProduct {
+    padding: 0 10px;
+}
+
+    /* The search field */
+    #txtDamage,#txtFactory,#txtProduct,#txtProcess,#txtWeight {
+        box-sizing: border-box;        
+        border-radius: 17px;
+        font-size: 1.5rem;
+        width: 100%;
+        color: black;        
+    }
+
+    .txtStyle {
+        box-sizing: border-box;        
+        border-radius: 17px;
+        font-size: 1.5rem;
+        width: 100%;
+        color: black;
+    }
+
+    .txtStyle:focus {
+        outline: none;
+    }
+
+    /* The search field when it gets focus/clicked on */
+    #txtDamage:focus,#txtFactory:focus,#txtProduct:focus,#txtProcess:focus,#txtWeight:focus {
+        outline: none;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f6f6f6;        
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+        margin-top: 5px;
+        padding: 0 10px;
+        border-radius: 17px;
+
+    }
+
+    .dropdown-content li {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display:block;
+    }
+
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 15%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    /* height: 80vh; */
+    height: auto;
+}
+
+
+.close {    
+    color: white;        
+    font-weight: bold !important;
+    font-weight: 900;
+    display: flex;
+    height: 100%;    
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    padding-right: 20px;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+
+
+.modal-header {
+    padding: 5px;
+    background-color: #72A18F;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.modal-header h2{
+    color: white !important;
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+    padding: unset !important;
+}
+
+.modal-content-header {
+    width: 100%;    
+    display: flex;
+    align-items: center;
+}
+
+.modal-content-close {
+    width: 100%;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-content-header p {
+    font-size: 2rem;
+    margin-top: unset;
+    margin-bottom: unset;
+    padding-left: 10px;
+}
+
+.modal-body {
+    padding: 5px;
+    /* height: 70vh; */
+    height: auto;
+    overflow: auto;
+ 
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #72A18F;
+    color: white;
+}
+
+.my-actions { margin: 0 2em; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+
+.right-gap {
+margin-right: auto;
+}
+
+#content_modalAddWeight label{
+    font-size: 1.4rem;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 720px) {
+    /* ปรับความสูงของแท็บบาร์ iOS ให้น้อยลง */
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    #content_modalAddWeight label{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* ปรับความสูงของแท็บบาร์ iOS ให้น้อยลง */
+    .header {
+        height: 50px;
+    }
+
+    /* ปรับขนาดตัวอักษรในแท็บบาร์ iOS ให้เหมาะสม */
+    .header span {
+        font-size: 1.2rem;
+    }
+
+    .modal {
+        padding-top: 50%;
+    }
+
+    #content {
+        margin: unset;
+    }
+
+    #gvWH_Weight td input[type="text"], #gvWH_Weight td select, #gvWH_Weight tr, #gvWH_Weight td {
+        font-size: 1rem;
+        font-weight: bold !important;
+    }
+
+    #content_modalAddWeight label{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 320px) {
+
+    .modal {
+        padding-top: 50%;
+    }
+
+    .header span {
+        font-size: 1rem;
+    }
+
+    #gvWH_Weight td input[type="text"],#gvWH_Weight td select,#gvWH_Weight tr, #gvWH_Weight td {
+        font-size: 1rem;
+    }
+
+    .modal-content-header p {
+        font-size: 1.6rem;
+    }
+
+    #content_modalAddWeight label{
+        font-size: 1rem;
+    }
+
+    
+}
+
+@media only screen and (min-device-width: 1024px) {    
+    #Main_content {
+        margin: 20px auto 0px auto;
+    }
+}
+

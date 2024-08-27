@@ -1,0 +1,1368 @@
+        
+.hidden {
+    display: none;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+hr {
+    color: black;    
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.align-cen {
+    align-items: center;
+}
+
+.margin-bot {
+    margin-bottom: 10px;
+}
+
+#BtnScanConNo1,#BtnScanConNo2 {
+    color: black;
+    /* background-color: #FFC107; */
+    /* padding: 5px 10px; */
+    margin-left: 10px;
+    /* border-radius: 10px; */
+}
+
+#BtnScanConNo1 i,#BtnScanConNo2 i{
+    
+}
+
+.content-Style {
+    margin: unset;
+}
+
+#LinkShore1, #LinkShore2, #LinkJoborderNo {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    margin-top: 10px;
+    border-radius: 17px;
+    color: black;
+    padding: 5px 13px;
+}
+
+#BtnClear_LinkShore1, #BtnClear_LinkShore2, #LinkClearJob {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 17px;
+    color: white;
+    padding: 5px 13px;
+    margin-left: 10px;
+}
+
+#Span3 {
+    top: -14px;
+    font-size: 3rem;
+}
+
+#lb_Shore {
+    width: 87px;
+    display: flex;    
+    justify-content: center;
+}
+
+#BtnShore {
+    width: 100%;
+    padding: 6px 28px;
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 17px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+#content_BtnShore {
+    display: none;
+}
+
+#content_ddlOperator {
+    display: none;    
+    margin-right: 5px;
+    width: 100px;
+    height: 36px;
+    border: none;
+}
+
+#BtnRepo_Cleaning,#BtnRepo_DM,#BtnRepo_InAV {
+    text-decoration: none;
+}
+
+#BtnRepo_Cleaning p,#BtnRepo_DM p,#BtnRepo_InAV p {
+    margin-top: unset;
+    margin-bottom: unset;
+    display: flex;
+    font-size: 1.4rem;
+    margin-left: 7px;
+}
+
+#BtnRepo_Cleaning i,#BtnRepo_DM i ,#BtnRepo_InAV i {
+    display: flex;
+    text-decoration: none;
+    padding: 17px 24px;
+    align-items: center;
+    background-color: #45e80c;
+}
+
+#ddlOperator {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+}
+
+#content_chk {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.DivGroupCon {
+    width: auto;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: ghostwhite;
+}
+
+#content_BtnClear {
+    display: flex;
+    height: 100%;
+    width: 30%;
+}
+
+#BtnClear {
+    border: none;
+    font-size: 1.9rem;
+    color: white;
+    border-radius: 17px;
+    width: 100%;
+}
+
+
+.main_container {
+    justify-content: space-between;
+}
+
+#BtnCS {
+    margin-left: unset;
+}
+
+#customer_group_cd label {
+    font-size: 1rem;    
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+    .page-sb-Style i {
+        font-size: 2rem;
+        padding: 5px 10px;
+        background-color: green;
+        color: white;
+        border-radius: 17px;
+    }
+
+    .page-end-Style i {
+        font-size: 2rem;
+        padding: 5px 20px;
+        background-color: green;
+        color: white;
+        border-radius: 17px;
+    }
+
+
+    .btn-sub-Style input[type="submit" i] {
+        margin-top: 10px;
+        border: none;
+        background-color: #3CB371 !important;
+        color: white;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 55%;
+    }
+
+    .btn-sub-end-Style input[type="submit" i] {
+        margin-top: 10px;
+        border: none;
+        background-color: #3CB371 !important;
+        color: white;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 33%;
+    }
+
+    #content_MainReefer {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+#content_detailContainer2, #content_detailContainer2_2 {
+    border: 1px solid gray;
+    border-radius: 17px;
+    margin: 10px 0px 5px;
+    padding: 10px;
+    width: auto !important;
+}
+
+.LockOn {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    vertical-align: bottom;
+    padding-top: 20%;
+    filter: alpha(opacity=75);
+    opacity: 1;
+    font-size: large;
+    color: blue;
+    font-style: italic;
+    font-weight: 400;
+    background-image: url("~/Images/progress.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index:9999999;
+}
+
+
+#txt_TrailerSerarch {
+    border: 1px solid black;
+    width: 50%;
+}
+
+
+#GridViewContainerno {
+white-space: nowrap;
+}
+
+#GridViewContainerno input{
+border: none;
+display: flex;
+width: 50px;
+}
+
+#close_Container i {
+    font-size: 2.7rem;
+}
+
+#PrePostContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#GridViewContainerno td{
+font-size: 1.4rem;
+}
+
+#GridViewContainerno tr{
+font-size: 1.2rem !important;
+}
+
+#GridView_DMChecklist_cbSelectDM_0,#GridView_DMChecklist_cbSelectDM_1,#GridView_DMChecklist_cbSelectDM_2,#GridView_DMChecklist_cbSelectDM_3,#GridView_DMChecklist_cbSelectDM_4,
+#GridView_DMChecklist_cbSelectPASS_0,#GridView_DMChecklist_cbSelectPASS_1,#GridView_DMChecklist_cbSelectPASS_2,#GridView_DMChecklist_cbSelectPASS_3,#GridView_DMChecklist_cbSelectPASS_4
+
+#GridView_DMChecklist2_cbSelectDM_0,#GridView_DMChecklist2_cbSelectDM_1,#GridView_DMChecklist2_cbSelectDM_2,#GridView_DMChecklist2_cbSelectDM_3,#GridView_DMChecklist2_cbSelectDM_4,
+#GridView_DMChecklist2_cbSelectPASS_0,#GridView_DMChecklist2_cbSelectPASS_1,#GridView_DMChecklist2_cbSelectPASS_2,#GridView_DMChecklist2_cbSelectPASS_3,#GridView_DMChecklist2_cbSelectPASS_4
+
+{
+width: 25px;
+height: 25px;
+}
+
+#shore_txt,#agent_txt,#mfd_txt,#size_txt {
+width: 70% !important;
+}
+
+
+#BtnSaveGateIn {
+    margin-top: 10px;
+    border: none;
+    background-color: #3CB371 !important;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 55%;    
+}
+
+#BtnSReprint {
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: none;
+    background-color: #17a2b8 !important;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 35%;
+}
+
+        /* The Close Button */
+        #close_icon1,#close_icon2,#close_icon3,#close_icon4,#back_icon {
+            font-size: 30px;
+            border-radius: 100%;
+            padding: 2px 9px;
+            color: #72A18F;
+            background-color: white;
+        }
+
+         /* The Close Button */
+         #close_icon4,#close_icon5 {
+            font-size: 21px;
+            border-radius: 100%;
+            padding: 1px 11px;
+            color: #72A18F;
+            background-color: white;
+        }
+
+        #btnSerarch_Gateinno {
+            margin-bottom: unset;
+            margin-left: 10px;
+            background-color: #ffc107;
+            color: black;
+            border: none;            
+        }
+
+        #header_TaxidPaymentQR,#header_Receipt {            
+            align-items: center;
+        }
+
+        #main_searchTruck,#main_searchTruck_Con2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        #main_DMType,#main_config,#main_configReefer,#main_configReefer_Con2,#main_configReeferC,#main_configG,#main_DMType_Con2,#main_configG_Con2,#main_config_Con2,#main_configReeferC_Con2 {
+            /* display: flex;
+            justify-content: space-between;
+            margin-bottom: 13px;
+            padding: 0 0px 0px 12px; */
+        }
+        
+        
+        #GroupPaymentcon1,#GroupPaymentcon2 {
+            border: 1px solid black;
+            padding: 20px 10px 20px 10px;
+            border-radius: 17px;
+            display: none;
+        }
+        
+        #content_Paymentcon1,#content_Paymentcon2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #BtnPaymentCon1,#BtnPaymentCon2 {
+            border: none;
+            background-color: #3CB371;
+            width: 50%;
+            height: 45px;
+            font-size: 1.3rem;
+            color: white;
+        }
+        
+        #content_BtnPaymet,#content_BtnPaymetCon2 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #content_ChkPaymentcon1,#content_ChkPaymentcon2 {
+            display: none;
+            align-items: center;
+            height: 25px;
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+            background-color: #72A18F;
+            padding: 10px;
+            border-radius: 17px;
+        }
+        
+        #header_epayment,#header_epayment2 {
+            margin-right: 10px;
+            color: white;
+        }
+        
+        #Divcleanadd {
+            margin-left:10px;
+        }
+        #Divcleanadd2 {
+            margin-left:10px;
+        }
+        #content_MainTaxId,#content_MainTaxIdCon2 {
+            width: 55%;
+        }
+        
+        #content_TelTax,#content_TelTaxCon2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #content_CustomerTelCon1,#content_CustomerTelCon2 {
+            width: 25%;
+        }
+        
+        #content_taxid,#content_taxidCon2 {
+            width: 70%;
+        }
+        
+        #content_BtnTaxid,#content_BtnTaxidCon2 {
+            width: 25%;
+            margin-left: 10px;
+        }
+        
+        #BtnTaxid,#BtnTaxidCon2 {
+            border: none;
+            background-color: #ffc107;
+            color: black;
+            font-size: medium;
+        }
+        
+        #content_CustomerCon1,#content_CustomerCon2 {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        #txtCusCode,#txtCusCodeCon2 {
+            width: 20%;
+        }
+        
+        #txtCusname,#txtCusnameCon2 {
+            width: 75%;
+        }
+        
+        #content_Price,#content_PriceCon2 {
+            width: 20%;
+        }
+        
+        #content_taxSearch,#content_taxSearchCon2 {    
+            display: flex;
+        }
+        
+        #ChkPay,#ChkPay2 {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 0px 10px;
+            border-radius: 10px; 
+        }
+        
+        input#ChkPaymentCon1 {
+            width: 20px;
+            height: 20px;
+            padding: unset !important;
+        }
+        input#ChkPaymentCon2 {
+            width: 20px;
+            height: 20px;
+            padding: unset !important;
+        }
+        #ChkPaymentCon1,#ChkPaymentCon2 {
+            background-color: white;
+        }
+        
+        #Div5 {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        #Div6 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #Div5 img {
+            padding: 15px;
+            border: 5px solid black;
+            border-radius: 17px;
+        }
+        
+        #QR_ref2 {
+            display: none;
+        }
+        
+        #BtnConfirmPayment {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 60%;
+            border: none;
+            background-color: #3CB371;
+            color: white;
+            height: 50px;
+            font-size: 1.6rem;
+        }
+        
+        #QR_Price {
+            margin-top: 20px;
+            display: flex;
+        }
+        
+        #lb_price {
+            font-size: 1.6rem;
+            width: 25%;    
+        }
+        
+        #content_txtToTal {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #txtToTal {
+            font-size: 1.6rem;
+            color: red;
+        }
+        
+        #close_QR i,#close_taxid i,#close_Receipt i{
+        font-size: 2.5rem;
+        }
+        
+        .row-refine div {
+            padding: 0px 0px 5px 11px !important
+        }
+        
+        
+        #BtnStatus {
+            display: flex;
+            justify-content: center;
+            width: auto;
+        }
+        
+        
+        #txtlicenseno {
+            width: 165px;
+        }
+
+        
+        #content_btnPagePayment {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            margin-top: 5vh;
+        }
+        #content_btnSentCR {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            margin-top: 5vh;
+        }
+        #btnPagePayment {    
+            margin-right: 20px;    
+            border: none;
+            background-color: #3CB371 !important;
+            color: white;
+            height: 45px;
+            width: 35%;
+        }
+        #btnSentCR {    
+            margin-right: 20px;    
+            border: none;
+            background-color: #3CB371 !important;
+            color: white;
+            height: 45px;
+            width: 35%;
+        }
+        
+        #header_status,#header_DMType,#header_status1,#header_Reefer,#header_Reefer_Con2,#header_DMType1,#header_status_Con2,#header_status1_Con2,#header_DMType_Con2,#header_DMType1_Con2,#header_epayment,#header_DMChecklist {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 1.35rem;
+            font-weight: bold !important;    
+        }
+        
+        #header_status p,#header_DMType1 p,#header_DMType p,#label_grade p,#header_status1 p,#header_Reefer p,#header_status_Con2 p,#header_status1_Con2 p,#header_DMType_Con2 p,#header_DMType1_Con2 p,#header_Reefer_Con2 p,#warning_selectCB p,#header_epayment p,#header_DMChecklist p{
+            margin-top: unset;
+            margin-bottom: unset;
+        }
+        
+        #content_consignee {
+            display: flex;
+            flex-wrap: nowrap !important;
+        }
+        
+        #remark_txt {
+            width: 100% !important;
+        }
+        
+        #containernno_txt {
+            width: 63% !important;
+        }
+        
+        
+        #cblItem tbody,#cblItem_Con2 tbody{
+            display: flex !important;
+            justify-content: space-around;
+        }
+        
+        #cblItem input,#cblItem1 input,#cblItem_Con2 input {
+            display: none;
+        }
+        
+        
+        #content_partInAV,#content_partInAV2,#content_partDM,#content_partDM2,#content_RepairTypeCon1,#content_RepairTypeCon2{
+            display: none;
+        }
+        
+        #warning_selectCB {
+            display: flex;
+            justify-content: center;
+            color: red;
+        }
+        
+        #warning_selectCB p {
+            font-size: 1.4rem;
+        }
+        
+        #cbl_Status,#cbl_Status_Con2,#cblItem,#cblItem_Con2 {width: 100%;}
+
+#content_ddlUpgrade, #content_ddlUpgrade_Con2, #content_ddlDMType, #content_ReeferS1, #content_ReeferS, #content_ReeferC1, #content_ReeferM, #content_ReeferControl, #content_ReeferC, #content_ReeferS1, #content_G, #content_G1, #content_G1S, #content_G_Con2, #content_G1_Con2, #content_CleaningType, #content_CleaningType_Con2, #content_ddlDMType_Con2, #content_ReeferS_Con2, #content_ReeferS1_Con2, #content_ReeferControl_Con2, #content_ReeferC_Con2, #content_ReeferM_Con2 {
+    margin-right: 10px;
+}
+
+        #content_ddlUpgrade {
+            width: 75%;
+        }
+
+        #content_ddlUpgradeG {
+            width: 25%;
+        }
+
+        .flex {
+            display: flex;
+        }
+        
+        #content_ddlSubCleaning,#content_ddlSubCleaning_Con2 {
+            display: flex;
+            align-items: center;
+        }
+        
+        #content_DMC1,#content_DMC12 {
+            display: flex;
+            align-items: center;
+            width: 100% !important; 
+            justify-content: center;
+            padding-left: 10px !important;
+        }
+        
+        #content_dirty,#content_dirty_Con2,#contentDMC1,#contentDMC12 {
+            display: flex;
+           justify-content: space-between;
+           width: 100%;
+            flex-direction: column;
+        }
+        
+        #content_G,#content_G_Con2,#content_G1_Con2{
+          width: 50% !important;
+        }
+        #content_fixed,#content_DMlocation,#content_upgrade,#content_upgrade_Con2,#content_DMType,#content_ReeferS,#content_ReeferS1,#content_ReeferControl,#content_ReeferC,#content_ReeferC1,#content_ReeferM,#content_CleaningType,#content_SubCleaning,#content_CleaningType_Con2,#content_SubCleaning_Con2,#content_DMType_Con2,#content_DMlocation_Con2,#content_fixed_Con2,#content_ReeferS_Con2,#content_ReeferControl_Con2,#content_ReeferC_Con2,#content_ReeferM_Con2,#content_ListDMC1,#content_ListDMC12 {
+            width: 100% !important;
+        }
+        
+        
+        #cbl_Status,#cbl_Status_Con2 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+.chb, .chb2 {
+    display: flex;
+    align-items: center;
+    background-color: #cbbf99;
+    padding: 0 5px;
+    border-radius: 17px;
+    color: black;
+}
+
+        .chbRepo {
+            display: flex;
+            align-items: center;
+            background-color: #3CB371;
+            padding: 0 5px;
+            border-radius: 17px;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .chbRepo input {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-left: unset;
+            width: 2.5rem !important;
+            height: 2.5rem !important;
+        }
+
+        #content_chkRepoPrint {
+            width: fit-content;
+        }
+
+        .chb3 {
+            display: flex;
+            align-items: center;
+            background-color: #ffc107;
+            padding: 0 10px;
+            border-radius: 17px;
+            color: black;
+        }
+
+        .chkReturn label{
+            width: 75px;
+        }
+        
+        .chb input,.chb2 input {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-left: unset;
+            width: 2.5rem !important;
+            height: 2.5rem !important;
+        }
+
+        #content_cameraInspection {
+            display: flex;
+            justify-content: center;
+        }
+
+        #header_Inspection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.35rem;
+            font-weight: bold !important;
+        }
+        
+
+        #header_Inspection p {
+            margin-top: unset;
+            margin-bottom: unset;
+            background-color: white;
+            color: black;
+            padding: 0px 10px;
+            border-radius: 17px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .chb_SelectDM input{
+            width: 30px;
+            height: 30px;
+        }
+        
+
+        .chb3 input {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-left: unset;
+            width: 1.2rem !important;
+            height: 1.2rem !important;
+        }
+        
+        #lblCon1,#lblCon2 ,#lblCon1R{
+            
+            background-color: white;
+            color: #72A18F;
+            padding: 0 6px;
+            border-radius: 20px;
+        
+        }
+        
+        #header_DMDetail,#header_DMDetail2,#header_TruckDetail,#header_Reprint,#header_ConsigneeDetail {
+            height: 30px;
+            align-items: center;
+        }
+        
+        #header_lblCon1,#header_lblCon2 {
+            display: flex; 
+            align-items: center; 
+            font-size: 1.4rem; 
+            width: 44%; 
+            justify-content: center;
+        }
+        
+        #header_lblCon1R {
+            display: flex; 
+            align-items: center; 
+            font-size: 1.4rem; 
+            width: 55%; 
+            justify-content: center;
+        }
+        
+        #txtDMLocation,#txtDMLocation_Con2 {
+            width: 100%;
+            text-transform: uppercase;
+        }
+        
+        
+        
+        #content_ddlRepairTypeCon1,#content_ddlRepairTypeCon2 {
+            width: 10vw;
+        }
+        
+        #Panel2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #BtnAddCon2 {    
+            border: none;
+            background-color: #45e80c;
+            border-radius: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 7px;
+            width: 130px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
+        .content_BtnRemoveCon2 {            
+            justify-content: center;
+        }
+        
+        .BtnRemoveCon2 {
+            border: none;
+            background-color: red;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #BtnRemoveCon2 p {
+            margin-left: 5px;
+        }
+        
+        #BtnSearchConNo,#BtnSearchConNo2,#txtContainerNo,#txtContainerNo2 {
+            margin-bottom: unset;
+        }
+#txtContainerNo {
+    width: 50%;
+}
+            #content_BtnAddDM, #content_BtnAddDM_Con2 {
+                display: flex;
+                justify-content: space-around;
+                /* width: 40%; */
+                align-items: center;
+            }
+        
+        #BtnAddDm_Con1,#BtnAddDm_Con2 {
+            border: none;
+            color: white;
+            background-color: #3786BD;
+            display: none;
+        }
+        
+        #content_txtDMLocation,#content_txtDMLocation_Con2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;    
+        }
+        
+        #content_txtDMLocation input,#content_txtDMLocation_Con2 input {
+            margin-bottom: unset !important;
+        }
+        
+        #content_agent_2 {
+            
+        }
+
+        #BtnSearchAgent {
+            margin-left: 5px;
+        }
+        
+    
+        #table_GridTrailer {
+            overflow-y: scroll;
+        }
+        #table_GridTrailer1,#table_GridTrailer12 {
+            overflow-y: scroll;
+        }
+        
+
+        .text_editReceipt {
+        font-size: 0.8rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+
+        .text_editReceipt input {
+            border: none !important;
+            border-radius: 17px;            
+            margin-bottom: unset !important;
+            font-size: 1.3rem;
+            padding: 5px 10px;
+        }
+
+        #navbar {
+            background-color: #72a18f;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 10px;
+        }
+
+
+        #BtnBack {
+            display: flex;
+            position: absolute;
+            right: 0;
+            padding: 16px 2.5%;
+            z-index: 2;
+        }
+
+        #BtnBack a {
+            text-decoration: none;
+            padding: 5px;
+            color: #72a18f;
+            font-weight: bold;
+            background: white;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        #btnYes,#btnNot,#btnOnlyOk {
+            padding: unset !important;
+        }
+
+        #GV_List_CheckAll,#GV_List_cbSelect_0,#GV_List_cbSelect_1,#GV_List_cbSelect_2 {
+            margin: unset;
+            margin-right: 10px;
+        }
+
+        #input_ReceiptNo {
+            display: flex;
+        }
+
+        .Rdo_Group label {
+            margin-bottom: unset !important;
+            display: unset !important;
+        }
+
+        .Rdo_Group {
+            display: flex;
+        }
+
+        #RadioButton1,#RdoRO,#RdoCo,#RdoRC,#ChkCredit{
+            width: unset;
+            margin-right: 10px !important;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+
+        #Rdo_Grouplist { 
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        #Chk_Grouplist {
+            border-radius: 10px;
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+            width: 259px;
+        }
+
+        .MainTable {
+            width: 380px;
+            background-color: rgba(0, 0, 0,0.6);
+            border: solid 2px #010949;
+            border-radius: 0px 0px 5px 5px;
+        }
+        .wrapper {
+            border: 1px solid orangered;
+            border-radius:3px;
+            display: inline-block;
+            position: relative;
+            width: 30%;
+            background-color: rgba(252, 252, 252, 0.83);
+            border-radius: 5px;
+            padding-left:1px;
+        }
+
+        .lblWord{font-weight:normal;font-size:15px;color:rgb(1, 33, 139)}
+        .lblDetail{font-size:14px;font-weight:bold;}
+        .Button{
+            background-color:orange;
+            color:white;
+            border-radius:5px 5px 5px 5px;
+            border-color:orange;
+            top:10px;
+            width: 50px;
+            height: 30px;
+            width:110px;
+        }
+        .Button:hover{background-color:darkorange;border:none;}
+        .Button:default{border:none;}
+
+
+#GroupCon_Search {
+    border: 1px solid #72A18F;
+    padding: 0px 15px 20px 15px;
+    border-radius: 12px;
+    background-color: #72A18F;
+    background-image: url('../../../iDepot/BgIdpot.jpg');
+}
+
+#div_txtContainerNo {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+               #preset_txtcontainerno {
+    display: none !important;
+}
+               
+#BtnSearchConNoList {
+    width: 50px; 
+    border: unset;
+    font-size: 1rem;
+    height: 43px !important;
+    width: 70px !important;
+}
+
+
+#content_lbcontainerno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    background-color: white;
+    border-radius: 20px;
+    height: 45px;
+    font-size: 1.4rem;
+}
+
+
+
+#lbcontainerno {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 17px;
+}
+
+
+.txt-Regis {
+    width: 50% !important;
+    text-align: center;
+}
+
+#txtTruckName {
+    width: 95%;
+}
+
+.page-Style input[type="submit" i] {
+    margin-left: 10px;
+}
+
+.content_agent {
+    width: 22%;
+    justify-content: flex-end;
+}
+
+#content_txtAgent {
+    width: 95%;
+    height: 36px;
+}
+
+#content_txtAgent_2 {
+    width: 95%;
+    height: 36px;
+}
+
+
+.content_detailContainer input{
+    width: 90% !important;    
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content_detailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#content_detailContainer,#content_detailContainer_2 {
+    justify-content: space-between;
+}
+
+.detail_Shore {
+    width: 58%;
+}
+
+.detail_Shore input{
+    width: 95% !important;
+}
+
+.detail_Agent {
+    width: 20%;
+}
+
+.detail_Size {
+    width: 20%;
+}
+
+
+.content_containerno {
+    width: 75%;
+  
+}
+
+.txtContainerNo {
+    width: 100% !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-row-Style img {
+    width: 30px;
+}
+
+.sp-around {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.content_Truck {
+    padding: 10px !important;
+    border: 2px solid black;
+    background-image: url('../../../iDepot/BgIdpot.jpg');
+}
+
+.margin-tb {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lb-Style {
+    color: white;
+}
+
+#BtnSearchConNo,#BtnSearchConNo2 {    
+    border: unset;
+    width: 60px;
+    border: unset;
+    font-size: 1rem;
+}
+
+ #lb_ConQR {
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 17px;
+    color: black;
+}
+
+#content_CleaningType,#content_SubCleaning {
+    /* width: 43%; */
+    width: auto;
+}
+
+#table_GridDMType {
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 17px;
+    border: 3px solid;
+}
+
+
+select {
+    height: 45px;
+    font-size: 1.9rem;
+}
+
+#content_ddlDirty,#content_ddlDirty_Con2 {
+    display: flex;
+    align-items: center;
+    width: 100% !important; 
+    justify-content: space-around;
+    /* padding-left: 10px !important; */
+}
+
+#content_ddlSubCleaning,#content_ddlSubCleaning_Con2 {
+    display: flex;
+    align-items: center;
+}
+
+.content-Style {
+    /*border: 2px solid black;*/
+    border: 1px solid gray;
+}
+
+#main_DMType {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;    
+    flex-direction: column;
+}
+
+#content_groupDMType {
+    display: flex;
+}
+
+#content_RepairTypeCon1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#content_ddlRepairTypeCon1 {
+    width: 100%;
+}
+
+#content_txtDMLocation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#txtDMLocation {
+    font-size: 1.8rem;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#content_config {
+    display: flex;
+    width: 100%;    
+}
+#content_configGrade {
+    display: flex;
+    width: 100%;
+}
+#content_grade {
+    width: 47%;
+}
+
+#content_BtnAddConfig {
+    display: flex;
+    justify-content: center;    
+}
+
+#BtnAddConfig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #3CB371;
+    padding: 0px 10px;
+    color: white;
+    border-radius: 17px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    height: 60px;
+}
+
+#BtnAddConfig i {
+    margin-right: 5px;
+}
+
+#BtnAddByPass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffe400;
+    padding: 0px 10px;
+    color: black;
+    border-radius: 17px;
+    border: none;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    height: 60px;
+}
+
+.button label{
+    margin: 5px 0 !important;
+}
+
+#btnScantoText {
+    padding: 0 40px;    
+    margin-bottom: unset;
+    background-color: #ffc107;
+    border-radius: 17px;
+    color: white;
+}
+
+#header_Main_Scan {
+    display: flex;
+    justify-content: center;
+    background-color: #72A18F;
+    padding: 20px 0;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#header_Main_Scan div {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+#header_Main_Scan p {
+    margin-top: unset;
+    margin-bottom: unset;
+    background-color: red;
+    padding: 0px 20px;
+    border-radius: 17px;
+}
+
+
+
+@media only screen and (min-width: 400px) {
+    #Modal_Containerno .modal-content,#myModal .modal-content{
+        width: 90% !important;
+        margin: 80px auto 0px auto;
+    }
+
+    .close {
+        left: 85vw;
+    }
+}

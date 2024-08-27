@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+    font-family: 'Kanit', sans-serif; font-weight:400 !important; font-style: normal;
+}
+
+
+.fa-solid,
+.fas,
+.fa {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+}
+
+body {
+    background-color: rgb(151, 195, 211);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;    
+    margin: 0 10%;
+}
+
+
+#contentWH_Weight table{
+    font-size: 2rem;    
+}
+
+#content_btn input[type="submit"] {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 17px;
+    font-size: 1.4rem;
+}
+
+#BtnSave {
+    background-color: chartreuse;
+    color: black;
+}
+
+#BtnClear {
+    background-color: red;
+    color: white;
+}
+
+
+#gvWH_Weight tr{
+    font-size: 1.5rem;
+}
+
+#gvWH_Weight td{
+    font-size: 2rem;
+}
+
+#gvWH_Weight td input[type="text" i]{
+    font-size: 2rem;
+    border-radius: 17px;
+}
+
+#gvWH_Weight td input[type="text" i]:focus {
+    /* outline: none;
+    border: none; */
+}
+
+.btnAddWeight {
+    margin-top: unset;
+    margin-bottom: unset;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    background-color: lime;
+    padding: 5px 45px;
+    border-radius: 17px;
+    font-size: 2rem;
+}
+
+.btnAddWeightToModal {
+    margin-top: unset;
+    margin-bottom: unset;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    background-color: lime;
+    padding: 5px 35px;
+    border-radius: 17px;
+    font-size: 1.5rem;
+}
+
+#txtAddWeightUnit {        
+    background-color: cadetblue;
+    border: none;
+    border-radius: 17px;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+}
+
+#txtAddWeightUnit:focus {
+    background-color: white;    
+    outline:cadetblue;
+    border: 1px solid cadetblue;
+}
+
+#content_ddlAddWeight select {
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.border {
+    border: none;
+    background-color: #72a18f;
+    color: white;
+    text-align: center;
+}
+
+.border:focus {
+    outline:#72a18f;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+.no-border {
+    border: none;
+    background-color: white;
+    color: black;    
+}
+
+.no-border:focus {
+    outline: none;
+    border: none;
+}
+
+#gvWH_Weight td select{
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    background-color: #72a18f;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span {
+    margin-top: unset;
+    margin-bottom: unset;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 17px;
+    font-size: 1.8rem;
+    color: #72a18f;
+    margin-left: 20px;
+}
+
+.btn-Back {
+    display: flex;    
+    top: 9px;
+    right: 5px;
+    padding: 16px 2.5%;
+    z-index: 2;
+}
+
+
+.btn-Back input {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #72a18f;
+    font-weight: bold;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.red-text {
+    color: red;
+}
+
+.black-text {
+    color: black;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 15%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    /* height: 80vh; */
+    height: auto;
+}
+
+
+.close {    
+    color: white;        
+    font-weight: bold !important;
+    font-weight: 900;
+    display: flex;
+    height: 100%;    
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    padding-right: 20px;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+
+
+.modal-header {
+    padding: 5px;
+    background-color: #72A18F;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.modal-header h2{
+    color: white !important;
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+    padding: unset !important;
+}
+
+.modal-content-header {
+    width: 100%;    
+    display: flex;
+    align-items: center;
+}
+
+.modal-content-close {
+    width: 100%;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-content-header p {
+    font-size: 2rem;
+    margin-top: unset;
+    margin-bottom: unset;
+    padding-left: 10px;
+}
+
+.modal-body {
+    padding: 5px;
+    /* height: 70vh; */
+    height: auto;
+    overflow: auto;
+ 
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #72A18F;
+    color: white;
+}
+
+.my-actions { margin: 0 2em; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+
+.right-gap {
+margin-right: auto;
+}
+
+#content_modalAddWeight label{
+    font-size: 1.4rem;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 720px) {
+    /* ปรับความสูงของแท็บบาร์ iOS ให้น้อยลง */
+    .modal-content {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    #content_modalAddWeight label{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* ปรับความสูงของแท็บบาร์ iOS ให้น้อยลง */
+    .header {
+        height: 50px;
+    }
+
+    /* ปรับขนาดตัวอักษรในแท็บบาร์ iOS ให้เหมาะสม */
+    .header span {
+        font-size: 1.2rem;
+    }
+
+    .modal {
+        padding-top: 50%;
+    }
+
+    #content {
+        margin: unset;
+    }
+
+    #gvWH_Weight td input[type="text"], #gvWH_Weight td select, #gvWH_Weight tr, #gvWH_Weight td {
+        font-size: 1rem;
+        font-weight: bold !important;
+    }
+
+    #content_modalAddWeight label{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 320px) {
+
+    .modal {
+        padding-top: 50%;
+    }
+
+    .header span {
+        font-size: 1rem;
+    }
+
+    #gvWH_Weight td input[type="text"],#gvWH_Weight td select,#gvWH_Weight tr, #gvWH_Weight td {
+        font-size: 1rem;
+    }
+
+    .modal-content-header p {
+        font-size: 1.6rem;
+    }
+
+    #content_modalAddWeight label{
+        font-size: 1rem;
+    }
+
+    
+}

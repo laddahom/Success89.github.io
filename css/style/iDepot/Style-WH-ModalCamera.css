@@ -1,0 +1,602 @@
+
+.hidden {
+    display: none;
+  }
+
+  .button {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 25vw;
+    height: 40px;
+    position: relative;
+    font-size: 1.3rem;
+  }
+  
+  .button label,
+  .button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  
+  .button input[type="radio"]:checked + label {
+    background: #1dc5cb;
+    border-radius: 17px;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  
+  .button input[type="checkbox"]:checked + label {
+    background: #1dc5cb;
+    border-radius: 17px;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+    background-color: white;
+    border-radius: 17px;
+    text-align: center;
+  }
+
+
+
+#icon_backCamera {
+    top: 10px !important;
+    left: 10px; 
+  }
+  
+  #content_BtnCameraShoot {
+    height: 7.5vh;
+    width: 95vw;
+    background-color: #72a18f;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    justify-content: flex-end;
+  }
+
+  
+  #content_BtnDeletePic {
+    display: flex;
+    justify-content: flex-end;
+    width: 21%;
+  }
+  
+  #content_AddOrRemoveCamera {
+    display: flex;
+    width: 75%;
+    justify-content: flex-start;
+  }
+  
+  #lb_ConDM,#lb_ConCL {
+    background-color: #ffc107;
+    padding: 2px 10px;
+    border-radius: 17px;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+  }
+  
+    #BtnCamera_Confirm  {
+    display: flex;
+    align-items: center;
+    background-color: #45e80c;
+    border: none;
+    border-radius: 17px;
+    padding: 1vh 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  #BtnCamera_Confirm p {
+   margin-top: unset;
+   margin-bottom: unset;
+   margin-left: 5px;
+   font-size: 1.5rem;
+  }
+  
+  
+  
+  #BtnCamera_InsertDM {
+    background-color: red;
+    border: none;
+    border-radius: 17px;
+    padding: 1.5vh 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #BtnCamera_AddDM {
+    background-color: #45e80c;
+    border: none;
+    border-radius: 17px;
+    padding: 1.5vh 20px;
+    color: rgb(255, 0, 0);
+  }
+  
+  #Main_Camera,#Main_Lane {
+      width: 100vw;
+      height: 115vh;
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s;
+      display: none;
+    }
+  
+    #lb_contentMSelectLane, #lb_contentContainer {
+      display: flex;
+      justify-content: space-evenly;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+    }
+  
+    #lb_contentContainer {
+      width: 50% !important;
+      color: black;
+    }
+  
+     #lb_HeaderContainer {
+      width: auto;
+    }
+  
+    #lb_HeaderContainer h2{
+      margin: 3px; 
+      font-size: 1.5rem;
+    }
+  
+    #lb_contentCamera2, #lb_contentCamera3 {
+        width: 20%;      
+    }
+  
+    #lb_contentCamera2 label, #lb_contentCamera3 label{
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+    #lb_Container {
+      background-color: white;
+      padding: 2px 15px;
+      border-radius: 17px;
+      color: black;
+      font-size: 1.3rem;
+    }
+  
+  
+    #lb_contentContainerNew {
+      width: 30%;
+    }
+  
+  
+    #lb_contentContainerAccess {
+      width: 30%;
+    }
+  
+    #lb_contentContainerclose {
+      width: auto;    
+      display: flex;
+      align-items: center;    
+      white-space: nowrap;
+    }
+  
+    #icon_closeLane {
+      display: flex;
+      margin-right: 5px;
+    }
+  
+    #icon_closeCamera {
+      display: none;
+    }
+  
+    #close_iconLane {
+      font-size: 3rem;
+    }
+  
+    #BtnClose_DeleteAll {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      background-color: red;
+      border-radius: 12px;
+      height: 35px;
+      margin-right: 5px;
+    }
+  
+    #BtnClose_DeleteAll p {
+      padding: 0 10px 0 5px;
+    }
+  
+    #BtnClose_DeleteAll i{
+      color: white;
+      background-color: red;
+      padding-left: 5px;
+      font-size: 1rem;
+      border-radius: 100%;
+    }
+  
+    #lb_InMain,#lb_InSub {
+      display: none;
+    }
+  
+    #content_cameraInAV,#content_cameraInAV2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25px;
+    }
+  
+  
+    #content_Inspection {
+      background-color: #eaefe4;
+      color: white;
+      margin-top: -10px;
+    }
+  
+    #BtnCamera_Inspection {
+      padding: 10px 92px;
+      border-radius: 20px;
+      background-color: #ff0707;
+      color: white;
+      border: none;
+    }
+  
+    #BtnCameraInspection_icon {
+      font-size: 3.5rem;
+    }
+  
+  
+    #BtnCamera_Cleaning ,#BtnCamera_DM,#BtnCamera_Con2,#BtnCamera_DM_Con2 {
+      margin-left: 5px;
+    }
+  
+    #BtnCamera,#BtnCamera_Con2 {
+      margin-right: 5px;
+    }
+  
+    #Main_Camera.open,#Main_Lane.open {
+      opacity: 1;
+      visibility: visible;
+      display: flex;
+    }  
+  
+    #main_OpenCamera {
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s;
+    }
+  
+    #main_OpenCamera.open {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+  
+    #webcam {
+      height: 50vh !important;
+    }
+  
+    #webcam video {
+      width: 100vw !important;
+      height: 50vh !important;
+    }
+  
+    #imgCapture {
+      width: 100vw !important;
+      height: 50vh !important;
+      /* display: none; */
+      object-fit: contain;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    }
+  
+    #imageUp {
+      display: none;
+    }
+  
+    #BtnCaptureCam {
+      display: flex;
+      justify-content: center;
+    }
+  
+    #header_contentMSelectLane {
+      /* height: 11.5%; */
+      /* height: 6vh; */
+      height: 50px;
+      display: flex;
+      /* background-color: #222; */
+      background-color: #72a18f;
+    }
+
+
+    #header_contentCamera {            
+      display: flex;
+      flex-direction: column;      
+    }
+
+
+    #lb_contentCamera {
+      display: flex;
+      justify-content: space-evenly;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      background-color: #72a18f;
+      padding: 10px 0;
+    }
+
+
+    #lb_subContentCamera {
+      display: none;
+      justify-content: space-evenly;
+      height: 100%;      
+      align-items: center;
+      background-color: #72a18f;
+      padding: 10px 0px;
+      border-radius: 20px;      
+      margin: 5px 10px 10px 10px;
+    }
+
+    #lb_contentCamera {
+      margin-bottom: 5px;
+    }
+
+    #lb_contentCamera1 {
+      display: flex;
+      width: 70%;
+      justify-content: center;
+    }
+
+    #div_chkForRoof {
+      display: flex;
+      width: 30%;
+      justify-content: flex-start;
+    }
+
+
+    #lb_DeleteAll {
+      width: 50%;
+      display: none;
+      align-items: center;
+      white-space: nowrap;
+      justify-content: flex-end;
+    }
+  
+    #content_BtnCamera {
+      /* height: 14%; */
+      width: 100%;
+      /* top: calc(63vh + 22%); */
+      top: 80.5vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      /* background-color: #72a18f; */
+      /* background-color: rgba(0, 0, 0, 0.7); */
+    }
+  
+    
+    /* (B) keypadPAD */
+    #content_camera,#content_MSelectLane {
+      max-width: 430px;      
+      background-color: white;
+      margin: 77vh auto 0 auto;
+      transform: translateY(-140%);      
+      height: 400px;
+      height: 55vh !important;
+      width: 100%;
+    }
+  
+    #content_MSelectLane {
+      background-color: transparent !important;
+    }
+  
+    .numLane {
+      margin: 0 10px;
+      display: flex !important;
+      justify-content: center;
+      background-color: black;
+      padding: 15px;
+      width: 70%;
+      height: 86%;
+      border-radius: 20px;
+    }
+  
+    .numLane h2{    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white !important;
+    }
+  
+    #header_contentMSelectLane {
+      margin-bottom: 20vh;
+    }
+    
+  
+    #previewImg {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      height: 13vh;
+      /* background-color: cadetblue; */
+      top: 66.5vh;
+      width: 100%;
+    }
+  
+    #previewImg div {
+      display: flex;
+    }
+  
+    .circle {
+      background-image:linear-gradient(rgb(56, 101, 70),rgb(24, 208, 190));    
+      /* width:9.6vw;
+      height:5.5vh; */
+      padding: 2.7vh;
+      border-style: solid;
+      border-color:transparent;
+       border-radius: 50%;
+      border-width:1px;
+     animation:rot 1s linear infinite; 
+      position: absolute;
+      left: 170px;
+      /* margin-left: 22px; */
+    }
+    .circle > div {
+      /* background:white;
+      height: 299px;
+      width: 299px;
+      border-style: solid;
+      border-color:transparent;
+       border-radius: 50%;
+      border-width:1px; */
+    }
+    
+    .circle p {
+      
+      animation:none;
+      
+    }
+    #ic_camera{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      position:absolute;
+      z-index:10;
+      /* top: 379px; */
+      left: 170px;
+    }
+  
+    #BtnCameraShoot {
+      text-decoration: none;
+    }
+    
+    
+    #BtnCameraShoot_icon {
+      color: white;
+        border: 3.5px solid white;
+        border-radius: 100%;
+        padding: 1.9vh;
+        width: 10px;
+        height: 10px;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    #BtnDeletePic,#BtnDeleteImg {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      margin-right: 10px;
+      color: white;
+      background-color: red;
+      padding: 1.5vh 20px;
+      border-radius: 17px;
+      border: none;
+    }
+  
+    #BtnDeletePic p,#BtnDeleteImg p {
+      margin-left: 5px;
+      margin-top: unset;
+      margin-bottom: unset;
+    }
+    
+    .fa-phone:before {
+        background-color: unset !important;
+        border: none !important;
+    }
+    
+    @keyframes rot {
+       0%
+      {
+        transform:rotate(0deg)
+      }
+       25%
+      {
+        transform:rotate(90deg)
+      }
+      50%
+      {
+        transform:rotate(180deg)
+      }
+       75%
+      {
+        transform:rotate(270deg)
+      }
+      100% {
+        transform:rotate(360deg)
+      }
+    }
+  
+      .splide {
+        /* padding: 5px 0; */
+      }
+  
+     #previewImg .splide__slide img {
+          display: block;
+          width: 100%;
+         
+          border-radius: 8px;
+          transition: transform 400ms;
+          transform: scale(.7);
+          transform-origin: center center;
+        }
+      
+        #mainslider .splide__slide img {
+          height: 100%;
+        }
+      
+      
+        #previewImg .splide__slide.is-active img {
+          transform: scale(0.9);
+        }
+  
+        #preLane .splide__list li {
+          display: flex;
+        }
+  
+        #preLane .splide__slide div {
+          display: block;
+          width: 100%;
+         
+          border-radius: 8px;
+          transition: transform 400ms;
+          transform: scale(0.7);
+          transform-origin: center center;
+        }
+  
+  
+        #preLane .splide__slide.is-active div {
+          transform: scale(0.9);
+        }
+  
+  
+    
